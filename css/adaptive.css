@@ -1,0 +1,97 @@
+@media screen and (max-width: 320px) {
+  .container {
+    width: 80%; /* Уменьшаем ширину контейнера на планшетной версии */
+  }
+
+  header nav {
+    display: flex;
+    align-items: center; /* Центрируем элементы навигации по горизонтали */
+  }
+
+  header a {
+    margin-bottom: 10px; /* Добавляем отступы между элементами навигации */
+    font-size: 15px;
+  }
+
+  .main .container {
+    height: auto; /* Автоматическая высота для адаптации содержимого на планшетной версии */
+    flex-wrap: wrap;
+  }
+
+  .main img {
+    display: none;
+  }
+
+  h1 {
+    font-size: 60px; /* Уменьшаем размер заголовка на планшетной версии */
+    width: auto; /* Убираем фиксированную ширину заголовка */
+    text-align: center; /* Центрируем заголовок */
+    padding: 50px 20px; /* Уменьшаем внутренние отступы */
+  }
+
+  .me .container {
+    flex-direction: column; /* Изменяем направление блоков на колонки для планшетной версии */
+    align-items: center; /* Центрируем элементы по горизонтали */
+  }
+
+  .me .text_block {
+    width: 90%; /* Уменьшаем ширину текстового блока на планшетной версии */
+    text-align: center; /* Центрируем текст */
+    margin-bottom: 20px;
+  }
+  .me p {
+    font-size: 18px;
+  }
+
+  .me img {
+    width: 70%; /* Уменьшаем ширину изображения на планшетной версии */
+  }
+
+  .skills .container > div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skills_span {
+    font-size: 20px; /* Уменьшаем размер шрифта навыков на планшетной версии */
+  }
+
+  .reach {
+    width: 90%; /* Уменьшаем ширину блоков "Reaches" на планшетной версии */
+    font-size: 15px; /* Уменьшаем размер шрифта блоков "Reaches" на планшетной версии */
+  }
+}
+
+/* !index2 */
+
+@media screen and (max-width: 320px) {
+  .two form {
+    width: 90%; /* Уменьшаем ширину формы на мобильной версии */
+  }
+
+  .two h1 {
+    font-size: 40px; /* Уменьшаем размер заголовка формы на мобильной версии */
+    margin-top: 80px; /* Изменяем отступ сверху */
+  }
+
+  .two h2 {
+    font-size: 30px; /* Уменьшаем размер второго заголовка на мобильной версии */
+  }
+
+  form input {
+    padding: 15px; /* Уменьшаем отступы вокруг текстовых полей на мобильной версии */
+  }
+}
+
+/* !index3 */
+
+@media screen and (max-width: 320px) {
+  .two_cont {
+    padding: 0 10px; /* Добавляем более узкие отступы по бокам на мобильной версии */
+    width: 300px;
+  }
+
+  .two_cont h1 {
+    font-size: 20px; /* Уменьшаем размер заголовка на мобильной версии до 40px */
+  }
+}
